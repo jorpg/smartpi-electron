@@ -1,0 +1,42 @@
+.bg-screen {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+.top-img{
+  margin-top: 50px;
+}
+.hero-title {
+    color: #fff;
+    font-weight:300;
+    font-size: 24px;
+    line-height:32px;
+    margin-bottom:32px;
+}
+.welcome-button {
+    min-height: 36px;
+    min-width: 88px;
+    text-align:center;
+    white-space: nowrap;
+    cursor: pointer;
+    letter-spacing: .010em;
+    margin:0 8px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    display:inline-block;
+    font-size:15px;
+    line-height:48px;
+    transition: all .3s;
+    background: rgba(255,255,255,0.87);
+    border-radius: 2px;
+    color: #1565C0;
+    font-weight: 500;
+    padding: 0 64px;
+    text-decoration: none;
+    &:hover {
+        background: #fff;
+        box-shadow: 0 8px 8px rgba(0,0,0,0.24), 0 0 8px rgba(0,0,0,0.12);
+        color: #1E88E5;
+    }
+}
