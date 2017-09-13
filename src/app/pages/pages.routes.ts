@@ -3,9 +3,9 @@ import { Routes } from '@angular/router';
 import { WelcomeScreenComponent, GettingStartedComponent } from './components/index';
 
 
-export const WelcomeRoutes: Routes = [
+export const PagesRoutes: Routes = [
     {
-        path: 'welcome',
+        path: 'welcome-screen',
         component: WelcomeScreenComponent
     },
     {

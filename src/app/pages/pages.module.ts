@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { WelcomeRoutingModule } from './welcome-routing.module';
+import { PagesRoutingModule } from './pages-routing.module';
 
 import { WelcomeScreenComponent } from './components/welcome-screen/welcome-screen.component';
 import { GettingStartedComponent } from './components/getting-started/getting-started.component';
-import { CardComponent } from './components/card/card.component';
+import { NavSidebarComponent } from './components/nav-sidebar/nav-sidebar.component';
 
 @NgModule({
   imports: [
         CommonModule,
-        WelcomeRoutingModule
+        PagesRoutingModule
   ],
-    declarations: [WelcomeScreenComponent, GettingStartedComponent, CardComponent]
+    declarations: [WelcomeScreenComponent, GettingStartedComponent, NavSidebarComponent]
 })
-export class WelcomeModule { }
+export class PagesModule { }

@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 // app
 import { AppRoutingModule } from './app-routing.module';
-import { WelcomeModule } from './welcome/welcome.module';
+import { PagesModule } from './pages/pages.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -16,7 +16,7 @@ import { AppComponent } from './app.component';
         FormsModule,
         HttpModule,
         AppRoutingModule,
-        WelcomeModule,
+        PagesModule,
     ],
     providers: [],
     bootstrap: [AppComponent]

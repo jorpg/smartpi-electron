@@ -1,21 +1,21 @@
 import { By } from '@angular/platform-browser';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CardComponent } from './card.component';
+import { NavSidebarComponent } from '/nav-sidebar.component';
 
-describe('CardComponent', () => {
-    let component: CardComponent;
-    let fixture: ComponentFixture<CardComponent>;
+describe('NavSidebarComponent', () => {
+    let component: NavSidebarComponent;
+    let fixture: ComponentFixture<NavSidebarComponent>;
 
     beforeEach(async(() => {
         TestBed.configureTestingModule({
-            declarations: [CardComponent]
+            declarations: [NavSidebarComponent]
         })
             .compileComponents();
     }));
 
     beforeEach(() => {
-        fixture = TestBed.createComponent(CardComponent);
+        fixture = TestBed.createComponent(NavSidebarComponent);
         component = fixture.componentInstance;
         fixture.detectChanges();
     });

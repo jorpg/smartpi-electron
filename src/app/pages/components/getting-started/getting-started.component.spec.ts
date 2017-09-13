@@ -4,10 +4,10 @@ import { GettingStartedComponent } from './getting-started.component';
 import { NgxElectronService } from '../../../ngx-electron/ngx-electron.service';
 
 @Component({
-    selector: 'seed-card',
+    selector: 'seed-nav-sidebar',
     template: ``
 })
-class MockCardComponent {
+class Mocknav-sidebarComponent {
     @Input() title: string;
     @Input() description: string;
     @Input() linkText: string;
@@ -21,7 +21,7 @@ describe('GettingStartedComponent', () => {
         TestBed.configureTestingModule({
             declarations: [
                 GettingStartedComponent,
-                MockCardComponent
+                Mocknav-sidebarComponent
             ],
             providers: [
                 { provide: NgxElectronService, useValue: {}}
